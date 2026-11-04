@@ -24,9 +24,6 @@
     <ClCompile Include="..\ShowtimeMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MovieFormatter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Movie.h">
@@ -35,5 +32,11 @@
     <ClInclude Include="..\MovieManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SelectMethod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
 </Project>

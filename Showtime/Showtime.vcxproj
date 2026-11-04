@@ -22,11 +22,14 @@
     <ClCompile Include="..\Movie.cpp" />
     <ClCompile Include="..\MovieManager.cpp" />
     <ClCompile Include="..\ShowtimeMain.cpp" />
-    <ClCompile Include="MovieFormatter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Movie.h" />
     <ClInclude Include="..\MovieManager.h" />
+    <ClInclude Include="SelectMethod.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
