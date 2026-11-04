@@ -10,6 +10,8 @@ add_executable(Showtime
     ShowtimeMain.cpp
     Movie.cpp
     MovieManager.cpp
+    HighestRatedSelect.cpp
+    NewestMovieSelect.cpp
 )
 
 target_include_directories(Showtime PRIVATE

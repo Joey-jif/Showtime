@@ -1,12 +1,16 @@
 #pragma once
 #include <vector>
+#include <string>
 #include "Movie.h"
+#include "SelectMethod.h"
 
 //Manages the full list of movies
 class MovieManager {
 public:
 	//Creates a movie and adds it to the list
 	int addMovie(const std::string& title, const std::string& genre, int releaseYear);
+	//Selection rule to see what to watch next
+	std::string selectMovie(const SelectMethod& method) const;
 
 	//Changes a movies watch status or rating
 	std::string rateMovie(int id, int rating);

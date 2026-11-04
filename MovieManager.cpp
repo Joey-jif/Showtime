@@ -9,6 +9,12 @@ int MovieManager::addMovie(const std::string& title, const std::string& genre, i
 	return movie.getId();
 }
 
+//Asks the select method to choose what to watch next
+std::string MovieManager::selectMovie(const SelectMethod& method) const {
+	size_t position = method.select(movies_);
+	return movies_.at(position).getTitle();
+}
+
 //Finds movie and sets the rating
 std::string MovieManager::rateMovie(int id, int rating) {
 	Movie& movie = findMovie(id);
