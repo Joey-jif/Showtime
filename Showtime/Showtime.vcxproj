@@ -22,6 +22,7 @@
     <ClCompile Include="..\Movie.cpp" />
     <ClCompile Include="..\MovieManager.cpp" />
     <ClCompile Include="..\ShowtimeMain.cpp" />
+    <ClCompile Include="MovieFormatter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Movie.h" />
