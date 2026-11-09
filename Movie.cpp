@@ -7,10 +7,11 @@ Movie::Movie(int id, const std::string& title, const std::string& genre, int rel
     if (title.empty()) {
         throw std::invalid_argument("Title Cannot be Empty!");
     }
-    if (releaseYear < 0 || releaseYear > 2026) {
+    
+    // NEW LINE ADDED: Enforcing cinematic era boundary (1888 onwards)
+    if (releaseYear < 1888 || releaseYear > 2026) {
         throw std::invalid_argument("Not a Valid Year!");
     }
-    
 }
 
 //Getters: Return movie information
